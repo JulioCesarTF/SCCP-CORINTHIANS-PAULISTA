@@ -1,0 +1,690 @@
+/*RESET CSS ADEQUADO*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:visited {
+    color: inherit;
+}
+
+/*CSS ARQUIVO INICIAL*/
+#iniciocorinthians {
+    background-image: url(indexback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nomeprincipal {
+    margin-top: 2%;
+    font-weight: bold;
+    color: black;
+    font-size: 230%;
+    max-width: 40%;
+    padding-left: 3%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+#introducao {
+    font-size: 160%;
+    color: black;
+    max-width: 50%;
+    background-color: white;
+    margin-bottom: 2%;
+}
+
+#acompanhe {
+    font-size: 200%;
+    color: black;
+    font-weight: bold;
+    max-width: 50%;
+}
+
+#botoesindex {
+    align-items: center;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    padding-left: 20%;
+}
+
+.botao-guia {
+    margin-top: 3%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 1) 98%);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 15%;
+}
+
+.botao-topicosi {
+    margin-top: 3%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 1) 98%);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 0%;
+    width: 15%;
+}
+
+.botao-guia:hover,
+.botao-topicosi:hover {
+    transform: scale(1.2);
+}
+
+/*CSS HEADER*/
+#cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: inline;
+    text-align: center;
+}
+
+header {
+    background-image: url("headerback.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.imagem-esquerda {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.imagem-esquerda img {
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.imagem-direita {
+    position: absolute;
+    right: 0;
+    max-width: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.imagem-direita img {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-centralizado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.imagem-direita:hover {
+    transform: scale(1.2);
+    opacity: 0.3;
+}
+
+/* CSS GUIA DO USUÁRIO */
+.brasao {
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+}
+
+.brasao img {
+    top: -1%;
+    right: -8%;
+    width: 100%;
+    height: 100%;
+}
+
+#imagemtexto {
+    height: 32px;
+    width: 32px;
+}
+
+.texto-guia-imagem1 {
+    font-size: 170%;
+    padding: 3% 4%;
+}
+
+.texto-guia-imagem {
+    font-size: 170%;
+    padding: 3% 4%;
+}
+.texto-guia-mobile {
+    font-size: 170%;
+    padding: 3% 4%;
+}
+
+#linhaguia {
+    border-width: 1px;
+    border-style: dotted;
+    width: 95%;
+}
+
+#botoesguia {
+    align-items: center;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    padding-left: 20%;
+}
+
+.botao-index {
+    margin-top: 3%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 1) 98%);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 15%;
+    float: left;
+    margin-top: 5%;
+}
+
+.botao-topicosg {
+    margin-top: 3%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 1) 98%);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 15%;
+    float: right;
+    margin-top: 5%;
+}
+
+.botao-index:hover,
+.botao-topicosg:hover {
+    transform: scale(1.2);
+}
+.texto-guia-imagem{
+    display: flex;    
+}
+.texto-guia-mobile{
+    display: none;
+}
+
+
+/*CSS TÓPICOS*/
+.botoes-grandes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.botao img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 0.1%;
+    margin-left: 0.1%;
+}
+
+.botao-topico {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+================================================================================================================================================================
+================================================================================================================================================================
+TEMPORÁRIOOOOOOOOOOOO ==========================================================================================================================================
+================================================================================================================================================================
+================================================================================================================================================================
+*/
+
+/*CSS HISTÓRIA*/
+#botoesvoltar {
+    align-items: center;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    padding-left: 20%;
+}
+
+.botao-voltar {
+    margin-top: 3%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 1) 98%);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 15%;
+    float: left;
+    margin-top: 5%;
+}
+
+#escudoabahist {
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.4;
+    width: 50%;
+    transition: 300ms;
+    box-shadow: 10px 10px 5px gray;
+}
+
+#escudoabahist img {
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+}
+
+#escudoabahist:hover {
+    opacity: 1;
+}
+
+.botao-voltar:hover {
+    transform: scale(1.2);
+}
+
+/*CSS ELENCOS*/
+#img77,
+#img2005,
+.imagem-90-91,
+.imagem-98-2000,
+.imagem-2012 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+}
+
+.imagem-90-91 img,
+.imagem-98-2000 img,
+.imagem-2012 img,
+.imgstdio img {
+    margin: 0 10px;
+    text-align: center;
+}
+
+
+#img2005,
+#img77,
+#img2015 {
+    max-height: 200px;
+    margin-left: 40%;
+
+}
+
+/*CSS ESTÁDIO*/
+.imgstdio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    vertical-align: center;
+}
+
+
+#1stdio,
+#2stdio {
+    height: 250px;
+}
+
+/*CSS HINO*/
+#phino {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 100px;
+}
+
+/*CSS CONTATOS*/
+/*FORMULARIO*/
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 36%, rgba(0, 0, 0, 1) 40%, rgba(255, 255, 255, 1) 98%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+
+    transform: scale(1.2);
+}
+
+/*FOOTER*/
+footer {
+    background-color: white;
+    padding: 20px;
+}
+
+#footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spncontato {
+    margin-top: 10px;
+}
+
+#footerimgs {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#ancorafooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#img1footer {
+    max-width: 150px;
+}
+
+#spngit {
+    font-size: 14px;
+}
+
+#ancorafooter2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img2footer {
+    max-width: 150px;
+}
+
+#spninst {
+    font-size: 14px;
+}
+
+/*PSEUDO ELEMENTOS*/
+.listahistoria {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5%;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.tophistoria:before {
+    content: "✝ "
+}
+
+.tophistoria:after {
+    content: "✔ "
+}
+
+/*SITE RESPONSIVO*/
+@media screen and (max-width: 450px) {
+    #iniciocorinthians {
+        background-image: url(indexbackmobile.jpg);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #nomeprincipal {
+        font-weight: bold;
+        color: black;
+        font-size: 230%;
+        max-width: 40%;
+        background-color: transparent;
+        text-align: left;
+        margin: 0;
+    }
+    
+    #introducao {
+        font-size: 160%;
+        color: black;
+        max-width: 50%;
+        background-color: transparent;
+    }
+    
+    .botao-guia{
+        display: block;
+        margin-left: 5%;
+        text-align: center;
+        width: 80%;
+    }
+    #acompanhe{
+        max-width: 90%;
+    }
+    .botao-topicosi{
+        display: block;
+        margin-left: 5%;
+        text-align: center;
+        width: 80%;
+    }
+    .botao-index{
+        display: block;
+        margin-left: 10%;
+        text-align: center;
+        width: 80%;
+    }
+    .botao-topicosg{
+        display: block;
+        margin-left: 5%;
+        text-align: center;
+        width: 80%;
+    }
+    .imagem-esquerda{
+
+        display: none;
+    }
+    .texto-centralizado{
+        display: block;
+        order: 1;
+        color: white;
+    }
+    .imagem-direita{
+        display: none;
+        order: 2;
+        width: 100%;
+        margin: 0;
+    }
+    .texto-guia-imagem{
+        display: none;    
+    }
+    .texto-guia-mobile{
+        display: flex;
+    }
+    .botoes-grandes{
+        display: block;
+    }
+    .botao{
+        display: block;
+        height: 120px;
+    }
+    .botao img{
+        max-height: 100px;
+        width: auto;
+    }
+    #escudoabahist{
+        display: none;
+    }
+
+    #escudoabahist img{
+        width: 200px;
+        height: auto;
+    }
+    
+    .botoesvoltar{
+        display: block;
+        margin-left: 5%;
+        text-align: center;
+        width: 80%;
+    }
+    .botoesvoltar button{
+        display: block;
+        margin-left: 5%;
+        text-align: center;
+        width: 80%;
+    }
+    .imgstdio {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .imgstdio img {
+        width: 100%;
+        height: auto;
+      }
+      #formulario{
+        display: none;
+      }
+      iframe{
+        display: none;
+      }
+      #txtcont{
+        width: 200px;
+      }
+      main{
+        width: auto;
+      }
+      .imagem-90-91,
+      .imagem-98-2000,
+      .imagem-2012 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+      .imagem-90-91 img,
+      .imagem-98-2000 img,
+      .imagem-2012 img {
+        display: block;
+        margin: 10px auto;
+    }
+
+    #img2015, #img2005, #img77 {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+
+
+    }
+
+
+}
+
+

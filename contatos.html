@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CONTATOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="contatos">
+    <header>
+        <div id="cabecalho">
+            <div class="imagem-esquerda">
+                <img src="nike.png">
+            </div>
+            <div class="texto-centralizado">
+                <a href="index.html"><h1>CONTATOS</h1>
+            </div>
+            <div class="imagem-direita">
+                <a href="index.html"><img src="brasao.png"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form id="formulario">
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+
+                <label for="radio-email"><input type="radio" value="email" id="radio-email"> Email</label>
+
+                <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone"> Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" checked>
+                    Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <br>
+
+            <label class="checkbox><input type=" checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+        <p id="txtcont">Nós não possuímos um espaço físico, porém atendemos à domicílio para toda a região de Uberaba - MG e recebemos críticas e ideias presenciai.</p>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60080.653779932276!2d-47.99073256392511!3d-19.75341848830538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad03162627637%3A0x8e83d9edb0f8e15c!2sUberaba%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1685402489304!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="footer1">
+            <span>Created by JúlioCTF</span>
+            <span>1° período ADS 2023</span>
+            <span id="spncontato">Contatos:</span>
+            <div id="footerimgs">
+                <a id="ancorafooter" href="https://github.com/JulioCesarTF">
+                    <img id="img1footer" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        alt="Github">
+                    <span id="spngit">JulioCesarTF</span>
+                </a>
+                <a id="ancorafooter2" href="https://instagram.com/jc_sccp_page">
+                    <img id="img2footer"
+                        src="https://img.freepik.com/vetores-premium/logotipo-de-midia-social-gradiente-roxo_197792-1883.jpg"
+                        alt="Instagram">
+                    <span id="spninst">jc_sccp_page</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
